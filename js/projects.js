@@ -1,6 +1,6 @@
 const projectsDatabase = {
     "Portfolio Website": [
-        "img/portfolio_1.png",
+        "img/portfolio_1.PNG",
         ["html", "css", "js"],
         ["#"],
     ]
