@@ -1,9 +1,12 @@
-const cvDownloadBtn = document.querySelectorAll(".main-btn")
+const cvDownloadBtn = document.querySelectorAll(".main-btn");
 
 function addDownload() {
-    for (const element in  cvDownloadBtn) {
-        element.href = "documents/Kum King Wye Resume.pdf"
+    for (const element of cvDownloadBtn) {
+        element.addEventListener("click", function() {
+            element.href = "documents/Kum King Wye Resume.pdf";
+            element.target = "_blank";
+        })
     }
 }
 
-addDownload()
+addDownload();
