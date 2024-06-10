@@ -1,7 +1,7 @@
 const projectsDatabase = {
     "Portfolio Website": [
         "img/portfolio_1.PNG",
-        ["html", "css", "js"],
+        ["html", "css", "js", "sass"],
         ["#"],
     ]
 };
