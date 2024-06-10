@@ -17,7 +17,8 @@ const languageDatabase = {
     Python: [true, "fa-brands fa-python"],
     Java: [true, "fa-brands fa-java"],
     SQL: [true, "fa-solid fa-database"],
-    React: [true, "fa-brands fa-react"]
+    React: [true, "fa-brands fa-react"],
+    SASS: [true, "fa-brands fa-sass"]
 };
 
 const statsElem = document.getElementById("progress-bars");
