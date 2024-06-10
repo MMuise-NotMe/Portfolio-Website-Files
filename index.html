@@ -274,7 +274,13 @@
         <script src="js/submit_form.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", (event) => {
-                var currentUrl = window.location.href; // Get current URL
+                var currentUrl = window.location.href;
+                
+                var a = document.createElement('a');
+                a.href = currentUrl;
+
+                currentUrl = a.protocol + "//" + a.host;
+
                 var redirectInput = document.getElementById("redirectInput");
                 redirectInput.value = currentUrl;
             });
