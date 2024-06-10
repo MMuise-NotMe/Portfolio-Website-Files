@@ -16,7 +16,7 @@ const languageDatabase = {
     "C#": [true, "fa-brands fa-unity"],
     Python: [true, "fa-brands fa-python"],
     Java: [true, "fa-brands fa-java"],
-    sql: [true, "fa-solid fa-database"],
+    SQL: [true, "fa-solid fa-database"],
     React: [true, "fa-brands fa-react"]
 };
 
