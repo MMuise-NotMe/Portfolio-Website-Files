@@ -8,6 +8,11 @@ const projectsDatabase = {
         "img/portfolio_2.PNG",
         ["react", "js", "sass"],
         ["https://mmuise-notme.github.io/Weather-App/", "https://github.com/MMuise-NotMe/Weather-App"],
+    ],
+    "Simple Movie App": [
+        "img/portfolio_3.PNG",
+        ["react", "js", "sass"],
+        ["https://mmuise-notme.github.io/Movie-App", "https://github.com/MMuise-NotMe/Movie-App"],
     ]
 };
 
